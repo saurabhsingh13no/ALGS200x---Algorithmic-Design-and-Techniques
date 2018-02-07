@@ -1,6 +1,6 @@
 /**
  * Ques : Find the maximum product of two distinct numbers in a sequence of non-negative integers.
- * Solution: Below is the naive implementation for the solution
+ * Solution: Below is the naive implementation for the solution which takes O(n^2) time.
  */
 
 package edu.northeastern.Week0;
@@ -22,7 +22,6 @@ public class MaxPairWiseProductNaive {
         for (int i=0;i<n;i++) {
             array[i] = scan.nextInt();
         }
-
         return array;
     }
 
