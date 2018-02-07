@@ -1,3 +1,5 @@
+// Problem to add 2 integers. Week0 first assignment
+
 package edu.northeastern.Week0;
 import java.util.Scanner;
 
