@@ -3,7 +3,7 @@
 package edu.northeastern.Week0;
 import java.util.Scanner;
 
-public class SumOfTwoDigits {
+public class APlusB {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);

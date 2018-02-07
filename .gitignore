@@ -24,4 +24,7 @@ hs_err_pid*
 # all idea files
 *.iml
 *xml
-.idea/worspace.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
