@@ -1,4 +1,4 @@
-package edu.northeastern.Week0;
+package edu.northeastern.week0;
 
 import java.util.Scanner;
 
@@ -57,7 +57,7 @@ public class MaxPairWiseProductFast {
         }
 
         for (int i=1; i<n;i++) {
-            if (numbers[i]!=numbers[index1] && numbers[i]>numbers[index2]) {
+            if (i!=index1 && numbers[i]>numbers[index2]) {
                 index2 = i;
             }
         }
