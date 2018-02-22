@@ -1,4 +1,4 @@
-package edu.northeastern.week0;
+package edu.northeastern.week1;
 
 import java.util.Scanner;
 

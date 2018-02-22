@@ -1,6 +1,6 @@
 // Problem to add 2 integers. Week0 first assignment
 
-package edu.northeastern.week0;
+package edu.northeastern.week1;
 import java.util.Scanner;
 
 public class APlusB {

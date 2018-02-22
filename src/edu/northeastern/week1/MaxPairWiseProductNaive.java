@@ -3,7 +3,7 @@
  * Solution: Below is the naive implementation for the solution which takes O(n^2) time.
  */
 
-package edu.northeastern.week0;
+package edu.northeastern.week1;
 import java.util.Scanner;
 
 public class MaxPairWiseProductNaive {
