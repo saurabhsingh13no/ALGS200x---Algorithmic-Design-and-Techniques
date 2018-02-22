@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Class to determine the maxiumum product of 2 unique numbers from the given set of numbers
  */
-public class MaxPairWiseProductFast {
+public class MaxPairwiseProduct {
 
     public static void main(String[] args) {
 
@@ -23,9 +23,9 @@ public class MaxPairWiseProductFast {
      * @param scan : Scanner object
      * @return : Integer array of numbers
      */
-    public static int[] readNumbers(int n, Scanner scan) {
+    public static long[] readNumbers(int n, Scanner scan) {
 
-        int[] numbers = new int[n];
+        long[] numbers = new long[n];
         for(int i=0;i<n;i++) {
             numbers[i]=scan.nextInt();
         }
@@ -37,7 +37,7 @@ public class MaxPairWiseProductFast {
      * @param numbers : Array of integers
      * @return : Integer
      */
-    public static int findMaxProduct(int[] numbers, int n) {
+    public static long findMaxProduct(long[] numbers, int n) {
         int index1 = 0;
 
         // Finding max integer among given set of numbers
