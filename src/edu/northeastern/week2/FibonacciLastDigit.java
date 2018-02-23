@@ -15,7 +15,7 @@ public class FibonacciLastDigit {
     /**
      * Function to compute the fibonacci upto the given number
      * @param n : Integer. The value upto which the fibonacci is required
-     * @return : Long. The fibonacci number computed.
+     * @return : Long. The last digit of fibonacci number computed.
      */
     private static long computeFibonacci(int n) {
         long result= 0;
