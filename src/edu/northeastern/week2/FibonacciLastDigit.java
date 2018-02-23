@@ -1,6 +1,5 @@
 package edu.northeastern.week2;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class FibonacciLastDigit {
@@ -10,7 +9,7 @@ public class FibonacciLastDigit {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
 
-        System.out.println(computeFibonacci(n).mod(new BigInteger("10")));
+        System.out.println(computeFibonacci(n));
     }
 
     /**
@@ -18,23 +17,23 @@ public class FibonacciLastDigit {
      * @param n : Integer. The value upto which the fibonacci is required
      * @return : Long. The fibonacci number computed.
      */
-    private static BigInteger computeFibonacci(int n) {
-        BigInteger result= new BigInteger("0");
+    private static long computeFibonacci(int n) {
+        long result= 0;
 
         if (n<=0) {
-            return BigInteger.valueOf(0);
+            return 0;
         }
 
         if (n<=2) {
-            return BigInteger.valueOf(1);
+            return 1;
         }
 
-        BigInteger i = new BigInteger("1");
-        BigInteger j = new BigInteger("1");
+        long i = 1;
+        long j = 1;
         for (int k=2;k<n;k++) {
-            result = i.add(j);
-            i=j;
-            j=result;
+            result = (i+j)%10;
+            i=j%10;
+            j=result%10;
         }
 
         return result;
