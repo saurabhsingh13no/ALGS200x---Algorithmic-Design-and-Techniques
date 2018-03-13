@@ -5,33 +5,43 @@ import java.util.Scanner;
 public class GCD {
 
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
+        long first  = scan.nextLong();
+        long second = scan.nextLong();
 
-        long first = scan.nextInt();
-        long second = scan.nextInt();
-
-        long startTime = System.nanoTime();
-        System.out.println(computeGCD(first, second));
-        long endTime = System.nanoTime();
-
-        System.out.println("Time taken : "+ (endTime-startTime)/1000000000.0 +" sec");
-    }
-
-    private static long computeGCD(long first, long second) {
-
-        long result = 1;
-
-        long smaller;
-        if (first>second) {smaller = second;}
-        else {smaller = first;}
-
-        for (long i=smaller;i>1;i--) {
-            if (first%i==0 && second%i==0){
-                return i;
-            }
+        if (first<second) {
+            System.out.println(computeGCD(second, first));
+        }
+        else {
+            System.out.println(computeGCD(first, second));
         }
 
-        return result;
+
+    }
+
+    /**
+     * Function that computes GCD using EuclideanGCD algorithm.
+     * Approach utilized here : if a and b are two given numbers, then:
+     *                          a = d + bq,
+     *                          where d is the remainder and q is some quotient. Needless to say d may be zero
+     *                          and q can be 1 or more.
+     *                          Idea here is GCD(a,b) is equal to GCD(a', b) where a' is the number that divides
+     *                          both a and b.
+     * @param first : Long.
+     * @param second : Long
+     * @return : Long. GCD of first and second.
+     */
+    private static long computeGCD(long first, long second) {
+
+        if (second == 0) {
+            return first;
+        }
+
+        else {
+            System.out.println(first/second);
+            return computeGCD(second, (long)first/second);
+        }
 
     }
 }
