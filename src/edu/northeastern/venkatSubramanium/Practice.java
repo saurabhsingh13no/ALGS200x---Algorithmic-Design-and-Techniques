@@ -14,8 +14,7 @@ public class Practice {
 
         System.out.println(
         x.stream()
-         .filter(e -> e%2==0)
-         .count());
+         .filter(e -> e%2==0));
 
     }
 

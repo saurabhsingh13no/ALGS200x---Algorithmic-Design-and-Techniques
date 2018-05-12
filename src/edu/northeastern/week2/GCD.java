@@ -39,8 +39,8 @@ public class GCD {
         }
 
         else {
-            System.out.println(first/second);
-            return computeGCD(second, (long)first/second);
+//            System.out.println(first%second);
+            return computeGCD(second, (long)first%second);
         }
 
     }
