@@ -1,4 +1,4 @@
-//package edu.northeastern.week2;
+package edu.northeastern.week2;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class FibonacciHuge {
             second = k;
 
             if (first == 1 && second ==0) {
-//                System.out.println("Pisano Period : "+counter);
+                System.out.println("Pisano Period : "+counter);
                 break;
             }
         }
@@ -36,8 +36,7 @@ public class FibonacciHuge {
             first = second;
             second = k;
         }
-//        System.out.println("First :"+first+", Second : "+second);
-
+        System.out.println("First :"+first+", Second : "+second);
 
         return first;
     }

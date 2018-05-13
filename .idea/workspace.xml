@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbb9368f-a287-4b43-bb23-4e678595bf7c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciSumLastDigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +14,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ALGS200x___Algorithmic_Design_and_Techniques$FibonacciSumLastDigit.ic" NAME="FibonacciSumLastDigit Coverage Results" MODIFIED="1526217349017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.northeastern.week2.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="FibonacciHuge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonacciHuge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="649">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciSumLastDigit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciSumLastDigit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -59,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/edu/northeastern/week2/GCD.java" />
         <option value="$PROJECT_DIR$/src/edu/northeastern/week2/LCM.java" />
         <option value="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java" />
+        <option value="$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciSumLastDigit.java" />
       </list>
     </option>
   </component>
@@ -142,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciHuge">
+  <component name="RunManager" selected="Application.FibonacciSumLastDigit">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -157,8 +173,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.northeastern.week2.GCD" />
+    <configuration name="FibonacciSumLastDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.northeastern.week2.FibonacciSumLastDigit" />
       <module name="ALGS200x - Algorithmic Design and Techniques" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -168,8 +184,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="GCD_slow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.northeastern.week2.GCD_slow" />
+    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.northeastern.week2.GCD" />
       <module name="ALGS200x - Algorithmic Design and Techniques" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -248,19 +264,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java" />
-      <item itemvalue="Application.GCD_slow" />
       <item itemvalue="Application.GCD" />
       <item itemvalue="Application.Practice" />
       <item itemvalue="Application.LCM" />
       <item itemvalue="Application.FibonacciHuge" />
+      <item itemvalue="Application.FibonacciSumLastDigit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSumLastDigit" />
         <item itemvalue="Application.FibonacciHuge" />
         <item itemvalue="Application.LCM" />
         <item itemvalue="Application.GCD" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.GCD_slow" />
       </list>
     </recent_temporary>
   </component>
@@ -281,16 +297,15 @@
       <workItem from="1520824831245" duration="1689000" />
       <workItem from="1520906476384" duration="3701000" />
       <workItem from="1521669468601" duration="8000" />
-      <workItem from="1526084076581" duration="5987000" />
+      <workItem from="1526084076581" duration="11597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34065000" />
+    <option name="totallyTimeSpent" value="39675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -301,8 +316,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44731182" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49569893" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3299356" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -312,7 +328,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49892473" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,7 +376,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -544,8 +560,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciHuge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="649">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/northeastern/week2/FibonacciSumLastDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
