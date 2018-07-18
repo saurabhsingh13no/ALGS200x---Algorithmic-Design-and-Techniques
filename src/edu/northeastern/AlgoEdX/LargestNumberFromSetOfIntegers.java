@@ -20,8 +20,7 @@ class SortByFirstDigit implements Comparator<SpecialIntegers> {
   public int compare(SpecialIntegers s1 ,SpecialIntegers s2) {
     String first = String.valueOf(s1);
     String second = String.valueOf(s2);
-
-    return -first.compareTo(second);
+    return -(first+second).compareTo(second+first);
   }
 }
 
@@ -50,13 +49,12 @@ class LargestNumberFromSetOfIntegers {
     return si;
   }
 
-  public static long findLargestNumber(List<SpecialIntegers> li) {
+  public static String findLargestNumber(List<SpecialIntegers> li) {
     long n;
     String number = "";
     for (SpecialIntegers s : li) {
       number += String.valueOf(s.n);
     }
-    n = Long.parseLong(number);
-    return n;
+    return number;
   }
 }
